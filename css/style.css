@@ -1,0 +1,20 @@
+#main-index .presentacion h2 {
+  text-align: center; }
+
+#main-index .presentacion .contenedor-video {
+  display: flex;
+  justify-content: center; }
+
+#main-index .historia h2 {
+  text-align: center; }
+
+#main-index .historia .contenedor-texto-historia {
+  max-width: 850px;
+  margin: auto; }
+
+#main-index .personal h2 {
+  text-align: center; }
+
+#main-index .personal .contenedor-cards {
+  display: flex;
+  justify-content: space-evenly; }
