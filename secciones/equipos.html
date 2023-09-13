@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>Equipos</title>
+</head>
+
+<body>
+    <header>
+        <h1 class="text-center">LABORATORIO DE INGENIERÍA CIVIL</h1>
+
+        <nav class="navbar navbar-expand-lg  bg-success-subtle">
+            <div class="container-fluid">
+                <img src="../recursos/img/logo-w50px.png" class="img-fluid" alt="Logo de laboratorios">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Navbar + cuadro de búsqueda -->
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <!-- Navbar -->
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./inventario.html">Inventario</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./reservas.html">Reservas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./equipos.html">Equipos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Iniciar sesión</a>
+                        </li>
+                    </ul>
+                    <!-- Cuadro de búsqueda -->
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Búsqueda" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+    <main>
+        <h3>Consultar descripción y detalle del equipo:</h3>
+        <form action="?" method="get">
+            <label>Escoger equipo para conocer:</label>
+            <input type="number" min="1000" required>
+            <input type="submit" value="Buscar">
+        </form>
+
+        <section>
+            <h4>Nombre:</h4>
+            <span>Canal hidrodinámico</span>
+
+            <h4>Descripción:</h4>
+            <p>Un canal hidrodinámico es un equipo fundamental en un laboratorio de hidráulica y fluidos, y se utiliza
+                para estudiar el comportamiento de fluidos en condiciones controladas y reproducibles. Este dispositivo
+                permite simular diversas situaciones hidráulicas, como flujos de agua en canales naturales, ríos,
+                tuberías y estructuras hidráulicas como presas y compuertas. A continuación, se describen algunas de las
+                funciones y usos principales de un canal hidrodinámico en un laboratorio de hidráulica:</p>
+            <ol>
+                <li>Investigación y experimentación: Un canal hidrodinámico permite a los investigadores y estudiantes
+                    realizar experimentos con fluidos para entender mejor los principios fundamentales de la
+                    hidrodinámica y la mecánica de fluidos. Pueden estudiar cómo los fluidos se comportan en diferentes
+                    condiciones, como cambios en la velocidad, la profundidad y la geometría del canal.</li>
+                <li>Validación de modelos teóricos: Los resultados de los experimentos realizados en el canal
+                    hidrodinámico pueden utilizarse para validar y mejorar modelos matemáticos y teóricos relacionados
+                    con el flujo de fluidos. Esto es esencial para desarrollar predicciones precisas y confiables sobre
+                    el comportamiento de los fluidos en situaciones del mundo real.</li>
+                <li>Diseño y prueba de estructuras hidráulicas: Los ingenieros utilizan los canales hidrodinámicos para
+                    probar prototipos de estructuras hidráulicas, como presas, compuertas, diques y sistemas de control
+                    de inundaciones. Estos experimentos permiten evaluar la efectividad y la seguridad de las
+                    estructuras antes de construirlas en el mundo real.</li>
+                <li>Estudios de transporte de sedimentos: Los canales hidrodinámicos también se utilizan para estudiar
+                    el transporte de sedimentos en ríos y canales. Esto es crucial para comprender cómo los sedimentos
+                    se mueven y se depositan en diferentes condiciones, lo que puede afectar la erosión, la
+                    sedimentación y la calidad del agua.</li>
+                <li>Investigación ambiental: Los canales hidrodinámicos se utilizan para simular escenarios ambientales
+                    y estudiar los efectos del flujo de agua en ecosistemas acuáticos. Esto puede incluir la evaluación
+                    de la mezcla de contaminantes, la propagación de nutrientes y otros aspectos relacionados con la
+                    calidad del agua.</li>
+                <li>Educación y formación: Los canales hidrodinámicos son herramientas educativas valiosas en
+                    instituciones académicas y centros de investigación. Los estudiantes pueden realizar experimentos
+                    prácticos para aplicar conceptos teóricos y desarrollar habilidades en el análisis y diseño de
+                    sistemas hidráulicos.</li>
+
+            </ol>
+
+            <h4>Tutorial de manejo básico del equipo</h4>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NYzLmpnEfcA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+        </section>
+
+    </main>
+
+    <footer class="container bg-body-tertiary mt-4">
+        <div class="row">
+            <div class="col-lg-4">
+                <h5>Enlaces</h5>
+                <ul>
+                    <li><a class="nav-link" href="../index.html">Inicio</a></li>
+                    <li><a class="nav-link" href="./inventario.html">Inventario</a></li>
+                    <li><a class="nav-link" href="./reservas.html">Reservas</a></li>
+                    <li><a class="nav-link" href="./equipos.html">Equipos</a></li>
+                    <li><a class="nav-link" href="./contacto.html">contacto</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-4">
+                <h5>Contacto</h5>
+                <p>Ubicación: Sede Alvernia de la Universidad Mariana</p>
+                <p>Correo electrónico: coordlabing@umariana.edu.co</p>
+                <p>Dirección: 1.2 km vía a Mapachico</p>
+                <p>Teléfono: (+57) 317 820 8375</p>
+            </div>
+            <div class="col-lg-4">
+                <h5>Derechos de autor</h5>
+                <p>(c) 2023 Mi Sitio Web. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
