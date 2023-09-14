@@ -1,0 +1,32 @@
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 30px 0;
+    .fila {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .columna {
+            flex-basis: calc(33.33% - 20px);
+            margin-right: 20px;
+            h3 {
+                font-size: 24px;
+            }
+            ul {
+                list-style: none;
+                padding: 0;
+                li {
+                    margin-bottom: 10px;
+                    .enlace {
+                        color: #fff; /* Color del texto de los enlaces */
+                        text-decoration: none; /* Elimina la subrayado de los enlaces */
+                        transition: color 0.3s; /* Transición de color de los enlaces */
+                        &:hover {
+                            color: #0056b3;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
