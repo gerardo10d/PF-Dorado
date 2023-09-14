@@ -17,7 +17,7 @@ header {
   text-align: center; }
   header h1 {
     color: #E5E5E5;
-    font-family: 'Cormorant-Garamond';
+    font-family: "Cormorant-Garamond";
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -32,6 +32,8 @@ header {
       margin-right: 10px;
       transition: transform 0.3s;
       animation: bounce 2s infinite alternate; }
+    header nav .navbar-toggler-icon {
+      stroke: #E5E5E5; }
     header nav .navbar-nav .nav-link {
       color: #E5E5E5; }
       header nav .navbar-nav .nav-link:hover {
@@ -50,6 +52,14 @@ header {
     transform: translateY(0); }
   100% {
     transform: translateY(-5px); } }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: larger; } }
+
+@media (max-width: 420px) {
+  header h1 {
+    font-size: smaller; } }
 
 #main-index .presentacion h2 {
   text-align: center; }
