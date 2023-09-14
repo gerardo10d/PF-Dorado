@@ -1,10 +1,11 @@
 header {
-  background-color: #007bff;
+  background-color: $color-azul;
   padding: 20px;
   text-align: center;
 
   h1 {
-    color: #fff;
+    color: $color-plateado;
+    font-family: 'Cormorant-Garamond';
     font-size: 48px;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -12,13 +13,24 @@ header {
     animation: fadeInDown 1s ease;
     transition: color 0.3s ease;
     &:hover {
-      color: #0056b3;
+      color: $color-negro;
     }
   }
-  .logo {
-    margin-right: 10px;
-    transition: transform 0.3s;
-    animation: bounce 2s infinite alternate;
+  nav{
+    background-color: $color-azul;
+    .logo {
+      margin-right: 10px;
+      transition: transform 0.3s;
+      animation: bounce 2s infinite alternate;
+    }
+    .navbar-nav {
+      .nav-link{
+        color: $color-plateado;
+        &:hover{
+          color: $color-naranja;
+        }
+      }
+    }
   }
 }
 @keyframes fadeInDown {
