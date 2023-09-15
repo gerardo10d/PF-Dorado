@@ -1,38 +1,42 @@
 #main-reservas {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
   .consultar {
     h2 {
       text-align: center;
       margin: 1rem;
+      animation: fadeInUp 1s;
     }
     .formulario {
-      max-width: 400px; /* Ancho máximo del formulario */
-      margin: 0 auto; /* Centrar el formulario en la página */
-      padding: 20px; /* Espaciado interno */
-      background-color: #f5f5f5; /* Color de fondo */
-      border-radius: 10px; /* Bordes redondeados */
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f5f5f5;
+      border-radius: 10px;
       label {
-        display: block; /* Mostrar etiquetas en una línea diferente */
-        margin-bottom: 5px; /* Espacio inferior entre etiquetas */
-        font-weight: bold; /* Texto en negrita */
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
       }
       input[type="date"],
       input[type="number"],
       input[type="checkbox"] {
-        width: 100%; /* Ancho completo del campo */
-        padding: 10px; /* Espaciado interno */
-        margin-bottom: 10px; /* Espacio inferior entre campos */
-        border: 1px solid #ccc; /* Borde del campo */
-        border-radius: 5px; /* Bordes redondeados */
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
       }
       .boton-consultar {
-        background-color: #007bff; /* Color de fondo del botón */
-        color: #fff; /* Color del texto del botón */
-        padding: 10px 20px; /* Espaciado interno del botón */
-        border: none; /* Eliminar el borde del botón */
-        border-radius: 5px; /* Bordes redondeados */
-        cursor: pointer; /* Cambiar el cursor al pasar por encima del botón */
+        background-color: #007bff;
+        color: $color-plateado;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
         &:hover{
-            background-color: #0056b3; /* Cambiar el color de fondo al pasar el cursor */
+            background-color: #0056b3;
         }
       }
     }

@@ -1,35 +1,30 @@
 #main-index {
-    .presentacion {
-        h2 {
-            text-align: center;
-        }
-        .contenedor-video {
-            display: flex;
-            justify-content: center;
-        }
-
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  h2 {
+    animation: fadeInUp 1s;
+    text-align: center;
+    margin: 1rem;
+  }
+  .presentacion {
+    .contenedor-video {
+      display: flex;
+      justify-content: center;
     }
+  }
 
-    .historia {
-        h2 {
-            text-align: center;
-        }
-        .contenedor-texto-historia {
-            max-width: 850px;
-            margin: auto;
-        }
-
+  .historia {
+    .contenedor-texto-historia {
+      max-width: 850px;
+      margin: auto;
     }
+  }
 
-    .personal {
-        h2 {
-            text-align: center;
-        }
-
-        .contenedor-cards {
-            display: flex;
-            justify-content: space-evenly;
-        }
-
+  .personal {
+    .contenedor-cards {
+      display: flex;
+      justify-content: space-evenly;
     }
+  }
 }

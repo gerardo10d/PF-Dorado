@@ -13,19 +13,15 @@ header {
     animation: fadeInDown 1s ease;
     transition: color 0.3s ease;
     &:hover {
-      color: $color-negro;
+      color: $color-naranja;
     }
   }
   nav {
     background-color: $color-azul;
     .logo {
       margin-right: 10px;
-      // width: 30px;
       transition: transform 0.3s;
       animation: bounce 2s infinite alternate;
-    }
-    .navbar-toggler-icon {
-      stroke: $color-plateado;
     }
     .navbar-nav {
       .nav-link {
