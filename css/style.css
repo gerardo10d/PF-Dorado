@@ -64,8 +64,8 @@ header {
   margin: 0 auto;
   padding: 20px; }
   #main-index h2 {
-    animation: fadeInUp 1s;
     text-align: center;
+    animation: fadeInUp 1s;
     margin: 1rem; }
   #main-index .presentacion .contenedor-video {
     display: flex;
@@ -90,10 +90,18 @@ header {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px; }
+  #main-reservas .boton, #main-reservas .consultar .formulario .boton-consultar, #main-reservas .container .boton-reservar {
+    color: #E5E5E5;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; }
+    #main-reservas .boton:hover, #main-reservas .consultar .formulario .boton-consultar:hover, #main-reservas .container .boton-reservar:hover {
+      background-color: #0056b3; }
   #main-reservas .consultar h2 {
     text-align: center;
-    margin: 1rem;
-    animation: fadeInUp 1s; }
+    animation: fadeInUp 1s;
+    margin: 1rem; }
   #main-reservas .consultar .formulario {
     max-width: 400px;
     margin: 0 auto;
@@ -113,26 +121,19 @@ header {
       border: 1px solid #ccc;
       border-radius: 5px; }
     #main-reservas .consultar .formulario .boton-consultar {
-      background-color: #007bff;
-      color: #E5E5E5;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer; }
-      #main-reservas .consultar .formulario .boton-consultar:hover {
-        background-color: #0056b3; }
-  #main-reservas .consultar p {
-    max-width: 850px;
-    text-align: center; }
+      background-color: #007bff; }
+  #main-reservas .container .boton-reservar {
+    background-color: #0dcaf0;
+    color: #000000; }
 
 #main-equipos {
   max-width: 800px;
   margin: 0 auto;
   padding: 20px; }
   #main-equipos h2 {
+    text-align: center;
     animation: fadeInUp 1s;
-    margin: 1rem;
-    text-align: center; }
+    margin: 1rem; }
   #main-equipos form {
     display: flex;
     flex-direction: column;
@@ -179,9 +180,9 @@ header {
   margin: 0 auto;
   padding: 20px; }
   #main-contacto h2 {
+    text-align: center;
     animation: fadeInUp 1s;
-    margin: 1rem;
-    text-align: center; }
+    margin: 1rem; }
   #main-contacto form {
     display: grid;
     grid-template-columns: 1fr 1fr;

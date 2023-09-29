@@ -3,9 +3,7 @@
   margin: 0 auto;
   padding: 20px;
   h2 {
-    animation: fadeInUp 1s;
-    margin: 1rem;
-    text-align: center;
+    @include h2-center-animado;
 }
   form {
     display: flex;

@@ -2,11 +2,19 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  .boton {
+    color: $color-plateado;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #0056b3;
+    }
+  }
   .consultar {
     h2 {
-      text-align: center;
-      margin: 1rem;
-      animation: fadeInUp 1s;
+      @include h2-center-animado;
     }
     .formulario {
       max-width: 400px;
@@ -29,20 +37,16 @@
         border-radius: 5px;
       }
       .boton-consultar {
+        @extend .boton;
         background-color: #007bff;
-        color: $color-plateado;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        &:hover{
-            background-color: #0056b3;
-        }
       }
     }
-    p {
-        max-width: 850px;
-        text-align: center;
+  }
+  .container {
+    .boton-reservar {
+      @extend .boton;
+      background-color: #0dcaf0;
+      color: $color-negro;
     }
   }
 }

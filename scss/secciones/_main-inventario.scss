@@ -3,8 +3,6 @@
   margin: 0 auto;
   padding: 20px;
   h2 {
-    text-align: center;
-    animation: fadeInUp 1s;
-    margin: 1rem;
+    @include h2-center-animado;
   }
 }
